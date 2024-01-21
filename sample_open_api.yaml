@@ -1,5 +1,14 @@
 openapi: 3.0.3
 info:
   title: Sample Title
+  description: Description about this API Collection
+  termsOfService: https://www.google.co.in/
+  contact:
+    name: deepak
+    url: https://www.google.co.in/
+    email: deepakpalakkal795@gmail.com
+  license:
+    name: license_1
+    url: https://www.google.co.in/
   version: 0.0.1
 paths: {}
