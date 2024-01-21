@@ -11,4 +11,11 @@ info:
     name: license_1
     url: https://www.google.co.in/
   version: 0.0.1
+servers:
+  - url: https://www.google.com/
+    description: testing url
+  - url: https://www.google.co.in/
+    description: staging url
+  - url: https://www.google.co.in/
+    description: pre-prod url
 paths: {}
