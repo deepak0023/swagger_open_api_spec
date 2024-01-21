@@ -18,4 +18,17 @@ servers:
     description: staging url
   - url: https://www.google.co.in/
     description: pre-prod url
+  - url: https://www.{username}.com:{port}/{version}
+    description: test url
+    variables:
+      username:
+        default: demo
+        description: host name
+      port:
+        enum:
+          - "8443"
+          - "80"
+        default: "8443"
+      version:
+        default: v1
 paths: {}
